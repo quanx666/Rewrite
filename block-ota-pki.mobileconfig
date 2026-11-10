@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>allowOTAPKIUpdates=false：停止 OTA PKI 更新，不影响 CRL/OCSP</string>
+			<key>PayloadDisplayName</key>
+			<string>自动更新证书信任设置 → 关闭</string>
+			<key>PayloadIdentifier</key>
+			<string>local.blockupdate.allowOTAPKIUpdates</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>FC6D09C7-E144-4726-AF42-B0E7F0A88CE0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowOTAPKIUpdates</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>只包含 com.apple.applicationaccess 的 allowOTAPKIUpdates=false</string>
+	<key>PayloadDisplayName</key>
+	<string>仅关闭 OTA PKI 更新（官方限制项）</string>
+	<key>PayloadIdentifier</key>
+	<string>local.blockupdate.onlyrestriction.root</string>
+	<key>PayloadOrganization</key>
+	<string>Local</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1544AD78-6174-46EF-99C7-9788DAC122A2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
