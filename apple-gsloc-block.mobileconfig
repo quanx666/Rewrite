@@ -14,6 +14,7 @@
 					<string>gdmf.apple.com</string>
 				     <string>gdmf-ados.apple.com</string>
 				     <string>updates-http.cdn-apple.com</string>
+                     <string>updates.cdn-apple.com</string>
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
